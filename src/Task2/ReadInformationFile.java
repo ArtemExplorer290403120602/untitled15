@@ -4,7 +4,6 @@ import java.io.FileReader;
 import java.util.Scanner;
 
 public class ReadInformationFile extends SystemFile {
-
     public static void readInformationFileAboutMyComputer() {
         Scanner scanner = new Scanner(System.in);
         while (true) {

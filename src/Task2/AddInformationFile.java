@@ -6,7 +6,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class AddInformationFile extends SystemFile {
-
     public static void addInformationFileAboutMyComputer() throws IOException {
         System.out.print("Введите сколько вы хотите ввести документов: ");
         Scanner scanner = new Scanner(System.in);

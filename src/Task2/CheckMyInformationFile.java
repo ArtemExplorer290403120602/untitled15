@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class CheckMyInformationFile extends SystemFile {
-
     public static void checkInformationFileAboutMyComputer() {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader("G:\\tms\\myDocuments.txt"))) {
             FileWriter validDocuments = new FileWriter("G:\\tms\\validDocuments.txt");

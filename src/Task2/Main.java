@@ -16,9 +16,9 @@ import java.io.IOException;
 //почему этот документ не валиден.
 public class Main {
     public static void main(String[] args) throws IOException {
-        //AddInformationFile.addInformationFileAboutMyComputer();
+        AddInformationFile.addInformationFileAboutMyComputer();
         System.out.println("------------------------");
-        //ReadInformationFile.readInformationFileAboutMyComputer();
+        ReadInformationFile.readInformationFileAboutMyComputer();
         CheckMyInformationFile.checkInformationFileAboutMyComputer();
     }
 }
